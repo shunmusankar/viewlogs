@@ -1,0 +1,59 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 100vw; /* Set a fixed width for the App container */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto; /* Center the App container horizontally */
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  width: 100%;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.log-container {
+  flex: 1; /* Allow this container to grow and fill available space */
+  width: 100%;
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
+  padding: 10px; /* Optional padding for better look */
+  box-sizing: border-box; /* Ensure padding doesn't affect the width */
+}
+
+ul {
+  list-style: none;
+  padding:0;
+  margin: 0;
+}
+
+li {
+  background: #f4f4f4;
+  margin: 4px; /* Margin of 4px around each message box */
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #000; /* Highlight the border */
+}
+
+strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+pre {
+  white-space: pre-wrap; /* Ensure long messages wrap within the container */
+  word-wrap: break-word; /* Ensure long words break within the container */
+  margin: 0; /* Remove default margin */
+}
+
+.h1{
+  background-color:red;
+}
